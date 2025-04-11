@@ -46,11 +46,6 @@ pip install -r requirements.txt
 
 This will install all necessary packages listed in `requirements.txt`.
 
-## 5. Done!
-
-You are now ready to start working on the project!
-
----
-
-Would you like me to also include a section about **deactivating the virtual environment** or **troubleshooting common issues**? 🚀  
-(Also, if you tell me a bit more about the project, I can tailor the README even better!)
+Type below command in the terminal 
+pytest tests/test_login.py -v
+pytest tests/test_pim.py -v
